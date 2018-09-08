@@ -8,7 +8,7 @@ export class Index extends Component {
     render() { 
         return ( 
             <React.Fragment>
-            <h1>You are in index Page</h1>
+           
             <Search />
             </React.Fragment>
            
