@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from 'react-dom'
 import {Navbar} from './components/Navbar' ;
-
+import {Footer} from './components/Footer' ;
 
 import { Provider } from "./context";
 import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
@@ -25,6 +25,7 @@ class App extends Component {
             </div>
           </React.Fragment>
         </Router>
+        <Footer />
       </Provider>
     );
   }
