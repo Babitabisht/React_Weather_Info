@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import Search from './Search' ;
+import Result from './Result' ;
 
 export class Index extends Component {
     state = { 
@@ -10,6 +11,7 @@ export class Index extends Component {
             <React.Fragment>
            
             <Search />
+            <Result />
             </React.Fragment>
            
          );
