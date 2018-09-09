@@ -9,6 +9,9 @@ import { Index } from "./components/Index";
 import "./App.css";
 
 class App extends Component {
+  componentDidMount(){
+    console.log(process.env.REACT_APP_KEY)
+  }
   render() {
     return (
       <Provider>
